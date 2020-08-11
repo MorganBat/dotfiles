@@ -23,3 +23,4 @@
 	d = diff
 	cl = clone
 	br = branch
+	brd = branch -d
