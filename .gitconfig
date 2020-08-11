@@ -1,0 +1,25 @@
+[user]
+	email = morgan@morganbatterham.me
+	name = Morgan Batterham
+
+
+[alias]
+	p = push
+	pl = pull
+	po = push origin
+	plo = pull origin
+	pom = push origin master
+	plom = pull origin master
+	phm = push heroku master
+	s = status
+	a = add
+	c = commit -m
+	ac = commit -am
+	f = fetch
+	co = checkout
+	cob = checkout -b
+	l = log
+	m = merge
+	d = diff
+	cl = clone
+	br = branch
