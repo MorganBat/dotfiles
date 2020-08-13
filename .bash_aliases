@@ -1,5 +1,8 @@
-# Git alias
+# Git aliases
 alias g="git"
+alias ga="git add"
+alias gc="git commit -m"
+alias gp="git push"
 
 # Nord aliases
 alias nord="nordvpn"
