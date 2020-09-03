@@ -15,5 +15,6 @@ alias nordoff="nordvpn set autoconnect off && nordvpn set killswitch off && nord
 # Fix vagrant gem fault
 alias vagrant="env -u GEM_HOME -u GEM_PATH vagrant"
 
-# Dusk test alias
+# Dusk test aliases
 alias pad="php artisan dusk"
+alias padm="php artisan dusk:make"
