@@ -13,6 +13,7 @@
 	phm = push heroku master
 	s = status
 	a = add
+	aa = add .
 	c = commit -m
 	ac = commit -am
 	f = fetch
