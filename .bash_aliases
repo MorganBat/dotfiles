@@ -4,6 +4,7 @@ alias ga="git add"
 alias gaa="git add ."
 alias gc="git commit -m"
 alias gp="git push"
+alias gpl="git pull"
 
 # Nord aliases
 alias nord="nordvpn"
