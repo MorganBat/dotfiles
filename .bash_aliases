@@ -6,6 +6,8 @@ alias gc="git commit -m"
 alias gp="git push"
 alias gpl="git pull"
 alias gm="git merge"
+alias gbr="git branch"
+alias gbrd="git branch -d"
 
 # Nord aliases
 alias nord="nordvpn"
