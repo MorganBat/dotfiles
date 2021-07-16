@@ -15,6 +15,7 @@ alias gcl="git clone"
 alias gbr="git branch"
 alias gbrd="git branch -d"
 alias gphm="git push origin master && git push heroku master"
+alias gpnet="git push && npm build && netlify deploy --prod"
 
 # Nord aliases
 alias nord="nordvpn"
@@ -26,3 +27,9 @@ alias nordoff="nordvpn set autoconnect off && nordvpn set killswitch off && nord
 
 # Update apt
 alias aptup="sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove"
+
+# Python
+alias python="python3"
+
+# Build and deploy to netlify
+alias npmbad="npm run build && netlify deploy --prod"
