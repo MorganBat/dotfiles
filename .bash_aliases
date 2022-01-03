@@ -26,7 +26,7 @@ alias nordon="nordvpn set autoconnect on && nordvpn set killswitch on && nordvpn
 alias nordoff="nordvpn set autoconnect off && nordvpn set killswitch off && nordvpn disconnect"
 
 # Update apt
-alias aptup="sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove"
+alias aptup="sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && snap refresh"
 
 # Python
 alias python="python3"
