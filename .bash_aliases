@@ -18,7 +18,7 @@ alias gphm="git push origin master && git push heroku master"
 alias gpnet="git push && npm run build && netlify deploy --prod"
 
 # Update apt
-alias aptup="sudo apt-get update && sudo apt-get upgrade && sudo apt-get autoremove && snap refresh"
+alias aptup="sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo snap refresh"
 
 # Python
 alias python="python3"
