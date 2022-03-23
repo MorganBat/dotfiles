@@ -22,6 +22,7 @@ alias aptup="sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo 
 alias apt1="sudo apt update"
 alias apt2="sudo apt upgrade"
 alias apt3="sudo apt autoremove"
+alias aptlu="apt list --upgradable"
 
 # Python
 alias python="python3"
