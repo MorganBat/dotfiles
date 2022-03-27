@@ -24,6 +24,9 @@ alias apt2="sudo apt upgrade"
 alias apt3="sudo apt autoremove"
 alias aptlu="apt list --upgradable"
 
+# Refresh snaps
+alias ssnapr="sudo snap refresh"
+
 # Python
 alias python="python3"
 
