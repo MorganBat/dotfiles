@@ -14,7 +14,7 @@ alias gd="git diff"
 alias gcl="git clone"
 alias gbr="git branch"
 alias gbrd="git branch -d"
-alias gphm="git push origin master && git push heroku master"
+alias gphm="git push heroku master"
 alias gpnet="git push && npm run build && netlify deploy --prod"
 
 # Update apt
