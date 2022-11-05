@@ -25,3 +25,6 @@
 	cl = clone
 	br = branch
 	brd = branch -d
+	fi = flow init
+	ffs = flow feature start
+	fff = flow feature finish
