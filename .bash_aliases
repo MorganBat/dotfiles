@@ -20,6 +20,8 @@ alias gpe="git push && exit"
 alias gfi="git flow init"
 alias gffs="git flow feature start"
 alias gfff="git flow feature finish"
+alias grb="git rebase"
+alias grbi="git rebase --interactive"
 
 # Update apt
 alias aptup="sudo apt update && sudo apt upgrade -y && sudo apt autoremove && sudo snap refresh"
