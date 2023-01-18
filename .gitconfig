@@ -27,3 +27,8 @@
 	brd = branch -d
 	plod = pull origin develop
 	mod = merge origin develop
+	fi = flow init
+	ffs = flow feature start
+	fff = flow feature finish
+	rb = rebase
+	rbi = rebase --interactive

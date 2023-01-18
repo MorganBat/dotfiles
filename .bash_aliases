@@ -19,6 +19,11 @@ alias gpnet="git push && npm run build && netlify deploy --prod"
 alias gpe="git push && exit"
 alias gplod="git pull origin develop"
 alias gmod="git merge origin develop"
+alias gfi="git flow init"
+alias gffs="git flow feature start"
+alias gfff="git flow feature finish"
+alias grb="git rebase"
+alias grbi="git rebase --interactive"
 
 # Update apt
 alias aptup="sudo apt update && sudo apt upgrade -y && sudo apt autoremove && sudo snap refresh"
