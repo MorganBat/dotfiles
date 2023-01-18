@@ -17,6 +17,8 @@ alias gbrd="git branch -d"
 alias gphm="git push heroku master"
 alias gpnet="git push && npm run build && netlify deploy --prod"
 alias gpe="git push && exit"
+alias gplod="git pull origin develop"
+alias gmod="git merge origin develop"
 
 # Update apt
 alias aptup="sudo apt update && sudo apt upgrade -y && sudo apt autoremove && sudo snap refresh"

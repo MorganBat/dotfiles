@@ -25,3 +25,5 @@
 	cl = clone
 	br = branch
 	brd = branch -d
+	plod = pull origin develop
+	mod = merge origin develop
