@@ -32,3 +32,7 @@
 	fff = flow feature finish
 	rb = rebase
 	rbi = rebase --interactive
+[color]
+	ui = true
+[core]
+	editor = vim
