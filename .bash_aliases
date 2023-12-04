@@ -61,3 +61,6 @@ alias npmbad="npm run build && netlify deploy --prod"
 
 # Storage space check
 alias dH="df /dev/nvme0n1p5 -H"
+
+# NEOVIM
+alias n="nvim"
