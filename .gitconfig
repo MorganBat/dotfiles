@@ -38,3 +38,6 @@
 	editor = nvim
 [push]
 	autoSetupRemote = true
+[commit]
+	gpgsign = true
+
