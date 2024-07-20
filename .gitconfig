@@ -31,6 +31,8 @@
 	ffs = flow feature start
 	fff = flow feature finish
 	rb = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
 	rbi = rebase --interactive
 [color]
 	ui = true
