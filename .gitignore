@@ -3,3 +3,6 @@
 !.bash_aliases
 !.gitconfig
 !.gitignore
+!.config/
+!.config/nvim/
+!.config/nvim/init.vim
