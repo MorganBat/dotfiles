@@ -49,6 +49,7 @@ alias hlt="heroku logs -t -a "
 # Update apt
 # alias aptup="sudo apt update && sudo apt upgrade -y && sudo apt autoremove && sudo snap refresh"
 alias aptup="sudo pacman -Syu && yay -Syu"
+alias aptupe="aptup && exit"
 alias apt1="sudo apt update"
 alias apt2="sudo apt upgrade"
 alias apt3="sudo apt autoremove"
