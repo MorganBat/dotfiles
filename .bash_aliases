@@ -47,17 +47,11 @@ alias rcAspecgp="rubocop && bundle exec rspec && git push"
 alias hrb="heroku run bash -a "
 alias hlt="heroku logs -t -a "
 
-# Update apt
-# alias aptup="sudo apt update && sudo apt upgrade -y && sudo apt autoremove && sudo snap refresh"
+# Update pacman
+# I have this alias seared into my memory from using Ubuntu for so long
+# That I'm persisting with this despite switching to arch (btw)
 alias aptup="sudo pacman -Syu && yay -Syu"
 alias aptupe="aptup && exit"
-alias apt1="sudo apt update"
-alias apt2="sudo apt upgrade"
-alias apt3="sudo apt autoremove"
-alias aptlu="apt list --upgradable"
-
-# Refresh snaps
-alias ssnapr="sudo snap refresh"
 
 # Python
 alias python="python3"
