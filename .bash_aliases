@@ -67,3 +67,8 @@ alias n="nvim"
 
 # LazyGit
 alias lg="lazygit"
+
+# ProtonVPN
+#alias vpnon="protonvpn-cli c --cc AU"
+alias vpnon="protonvpn-cli c --fastest"
+alias vpnoff="protonvpn-cli d"
