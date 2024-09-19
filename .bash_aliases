@@ -47,12 +47,6 @@ alias rcAspecgp="rubocop && bundle exec rspec && git push"
 alias hrb="heroku run bash -a "
 alias hlt="heroku logs -t -a "
 
-# Update pacman
-# I have this alias seared into my memory from using Ubuntu for so long
-# That I'm persisting with this despite switching to arch (btw)
-alias aptup="sudo pacman -Syu && yay -Syu"
-alias aptupe="aptup && exit"
-
 # Python
 alias python="python3"
 
