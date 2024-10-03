@@ -67,3 +67,7 @@ alias vpn="protonvpn-cli"
 #alias vpnon="protonvpn-cli c --cc AU"
 alias vpnon="protonvpn-cli c --fastest"
 alias vpnoff="protonvpn-cli d"
+
+# yay aliases
+alias yaye="yay && exit"
+alias yaysd="yay && sudo shutdown now"
