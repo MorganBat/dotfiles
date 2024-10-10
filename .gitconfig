@@ -2,6 +2,8 @@
 	email = morgan@morganbatterham.me
 	name = Morgan Batterham
 
+[include]
+	path = ~/.gitconfig_device
 
 [alias]
 	p = push
@@ -42,4 +44,3 @@
 	autoSetupRemote = true
 [commit]
 	gpgsign = true
-
