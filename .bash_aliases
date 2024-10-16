@@ -35,6 +35,8 @@ alias gstp="git stash pop"
 alias gstl="git stash list"
 alias gplod="git pull origin develop"
 alias gmod="git merge origin develop"
+alias gwip='git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify --no-gpg-sign --message "--wip-- [skip ci]"'
+alias gunwip='git rev-list --max-count=1 --format="%s" HEAD | grep -q "\--wip--" && git reset HEAD~1'
 alias rrg="rails routes | grep"
 alias rc="rubocop"
 alias rca="rubocop -A"
