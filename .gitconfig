@@ -1,6 +1,7 @@
 [user]
 	name = Morgan Batterham
 
+# This is where I set device specific configs e.g. email, signingKey
 [include]
 	path = ~/.gitconfig_device
 
