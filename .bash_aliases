@@ -70,6 +70,8 @@ alias vpn="protonvpn-cli"
 #alias vpnon="protonvpn-cli c --cc AU"
 alias vpnon="protonvpn-cli c --fastest"
 alias vpnoff="protonvpn-cli d"
+alias kson="protonvpn-cli ks --permanent"
+alias ksoff="protonvpn-cli ks --off"
 
 # yay aliases
 alias yaye="yay && exit"
