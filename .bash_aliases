@@ -76,3 +76,6 @@ alias ksoff="protonvpn-cli ks --off"
 # yay aliases
 alias yaye="yay && exit"
 alias yaysd="yay && sudo shutdown now"
+
+# PBCOPY for Arch
+alias pbcopy='xsel --clipboard --input'
