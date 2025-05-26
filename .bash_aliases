@@ -2,6 +2,7 @@
 alias g="git"
 alias gp="git push"
 alias gpl="git pull"
+alias gple="git pull && exit"
 alias gs="git status"
 alias ga="git add"
 alias gaa="git add ."
