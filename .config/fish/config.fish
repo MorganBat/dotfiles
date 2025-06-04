@@ -11,3 +11,4 @@ status --is-interactive; and rbenv init - --no-rehash fish | source
 set -g PATH $HOME/.rbenv/bin $PATH
 status --is-interactive; and . (rbenv init -|psub)
 
+status --is-interactive; and nvm use latest > /dev/null
