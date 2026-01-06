@@ -9,3 +9,4 @@
 !.gitmodules
 !.config/fish
 !.config/fish/config.fish
+!.gitconfig_device_example
