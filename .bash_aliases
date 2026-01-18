@@ -1,6 +1,7 @@
 # Git aliases
 alias g="git"
 alias gp="git push"
+alias gpnv="git push --no-verify"
 alias gpl="git pull"
 alias gple="git pull && exit"
 alias gs="git status"
