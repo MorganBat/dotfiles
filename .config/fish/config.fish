@@ -11,5 +11,4 @@ end
 
 set -g PATH $HOME/.rbenv/bin $PATH
 
-
-direnv hook fish | source
+# direnv hook fish | source
