@@ -10,5 +10,6 @@ if status is-interactive
 end
 
 set -g PATH $HOME/.rbenv/bin $PATH
+set -g PATH $HOME/.local/bin $PATH
 
 # direnv hook fish | source
