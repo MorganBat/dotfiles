@@ -7,6 +7,15 @@ if status is-interactive
     . (rbenv init -|psub)
 
     nvm use latest > /dev/null
+
+    # Alias functions to use zsh instead
+    set aliased_functions claude
+
+    for function_name in aliased_functions
+        function $function_name --inherit-variable function_name
+            env SHELL=(which zsh) command $function_name $argv
+        end
+    end
 end
 
 set -g PATH $HOME/.rbenv/bin $PATH
