@@ -3,6 +3,8 @@ if status is-interactive
     source ~/.aliases
     source ~/.bash_aliases
 
+    source ~/.config/fish/device.config.fish
+
     rbenv init - --no-rehash fish | source
     . (rbenv init -|psub)
 
