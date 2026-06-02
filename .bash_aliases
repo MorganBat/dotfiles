@@ -49,30 +49,16 @@ alias rrg="rails routes | grep"
 alias rc="rubocop"
 alias rca="rubocop -A"
 alias rcA="rubocop -A"
-alias sidekiqload="dotenv -f '.env.development' bundle exec sidekiq -C ./config/sidekiq.yml"
 alias ber="bundle exec rspec"
 alias gitclean="git branch --merged | grep -v \"\*\" | grep -Ev \"(\*|main|develop|staging|master)\" | xargs -n 1 git branch -d"
-alias rcAspec="rubocop -A && bundle exec rspec"
-alias rcAspecgp="rubocop && bundle exec rspec && git push"
-alias hrb="heroku run bash -a "
-alias hlt="heroku logs -t -a "
 
-# Python
 alias python="python3"
 
-# Build and deploy to netlify
-alias npmbad="npm run build && netlify deploy --prod"
-
-# NEOVIM
 alias n="nvim"
 
-# LazyGit
 alias lg="lazygit"
-
-# LazyDocker
 alias lzd="lazydocker"
 
-# ProtonVPN
 alias vpn="protonvpn-cli"
 #alias vpnon="protonvpn-cli c --cc AU"
 alias vpnon="protonvpn-cli c --fastest"
