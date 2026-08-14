@@ -104,4 +104,6 @@ source <(fzf --zsh)
 
 eval "$(dev _hook)"
 
+[[ -f "$HOME/.zshrc.device" ]] && source "$HOME/.zshrc.device"
+
 [[ -d "$HOME/.local/bin" ]] && export PATH="$HOME/.local/bin:$PATH"

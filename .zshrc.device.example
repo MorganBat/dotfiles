@@ -1,0 +1,12 @@
+# Device specific zsh config. Copy to ~/.zshrc.device and fill in real values.
+#
+# ~/.zshrc sources ~/.zshrc.device if it exists. This repo is public, so
+# ~/.zshrc.device is git ignored and only this example file is tracked.
+# Keep secrets (tokens, keys, personal email) here, never in ~/.zshrc.
+#
+# The fish equivalent is ~/.config/fish/device.config.fish, and git uses
+# ~/.gitconfig_device.
+
+export MCP_BUGSNAG_API_TOKEN="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+# export BUNDLE_RUBYGEMS__PKG__GITHUB__COM="<github-user>:<github-pat>"

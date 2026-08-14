@@ -11,3 +11,4 @@
 !.config/fish/config.fish
 !.gitconfig_device_example
 !.zshrc
+!.zshrc.device.example
