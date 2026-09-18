@@ -63,6 +63,8 @@ alias n="nvim"
 alias lg="lazygit"
 alias lzd="lazydocker"
 
+alias oc="opencode"
+
 alias vpn="protonvpn-cli"
 #alias vpnon="protonvpn-cli c --cc AU"
 alias vpnon="protonvpn-cli c --fastest"
